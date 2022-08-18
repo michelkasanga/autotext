@@ -1,0 +1,44 @@
+body{
+    background: #282a36;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#autotext{
+    border-right: 0.15em solid #00ff0d;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+}
+#autotex{
+    border-right: 0.15em solid #00ff0d;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+}
+@keyframes blink{
+    from,
+    to{
+        border-color:transparent;
+    }
+    50%{
+        border-color: #00ff0d;
+    }
+    30%{
+        color:#ff0000;
+    }
+    50%{
+        color:#ff00aa;
+    }
+    70%{
+        color:#88ff00;
+    }
+    90%{
+        color:#00a2ff;
+    }
+    100%{
+        color:#e5ff00;
+    }
+}
